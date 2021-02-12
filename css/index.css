@@ -1,0 +1,116 @@
+body {
+    height: 93vh;
+    background-color:#212121;
+}
+
+.invisible {
+    display: none;
+    margin: 1000px 0 0 0;
+}
+
+.container-navigation {
+    display: flex;
+    flex-direction: column;
+}
+.header-container {
+    display: flex;
+    justify-content: center;
+    height: 7vh;
+    background-color: #212121;
+}
+.navigation {
+    display: flex;
+    background-color: #34db58;
+    align-items: center;
+    justify-content: space-around;
+    width: 35%;
+    border: 10px solid white;
+    border-radius: 50px;
+}
+.fab {
+    font-size:50px ;
+}
+.user-textH {
+    font-size: 150%;
+}
+#searchUser {
+    height: 70%;
+    width: 50%;
+    font-size: 140%;
+}
+#searchUserButton {
+    height: 76%;
+}
+.user-info-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 40vh;
+    justify-content: space-around;
+}
+.user-info {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    width: 30%;
+}
+.user-name-img {
+    height: 75%;
+    width: 20%;
+}
+#user-img {
+    min-width: 100%;
+    min-height: 100%;
+    max-width: 100%;
+    max-height: 100%;
+    border: 10px solid white;
+    border-radius: 40px;
+}
+.user-info-container a:hover {
+    color: white;
+}
+.container-repo-father {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 0 0 100px;
+}
+.container-repo{
+    display: flex;
+    flex-flow: row wrap;
+    background-color: #26e45f;
+    width: 79%;
+    border: 10px solid #212121;
+    border-radius: 100px;
+    margin: 20px 0 20px 0;
+}
+.user-info-text {
+    font-size: 150%;
+    color:  #ff144b;
+    margin: 10px 0 0 0;
+}
+.repo-box {
+    display: flex;
+    margin: 5px 0 10px 250px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 900px;
+    height: 15vh;
+    background-color: #212121;
+    border: 10px solid #212121;
+    border-radius: 100px;
+}
+.repoText {
+    font-size: 150%;
+    color: #ff4b14;
+}
+.container-repo a:link {
+    color: #ff4b14;
+}
+.container-repo a:visited {
+    color: #ff4b14;
+}
+.container-repo a:hover {
+    color:white;
+}

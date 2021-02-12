@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt_br">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/index.css">
+    <title>APIGithub</title>
+</head>
+<body>
+    <div class="container-navigation">
+        <div class="header-container">
+            <div class="navigation">
+                <label for="user" class="user-textH">User Name </label>
+                <input type="text" id="searchUser" required autofocus/>
+                <button id="searchUserButton" >Search</button>
+            </div>
+        </div>
+        <div class="user-info-container">
+            <div class="user-info">
+                <p id="user-name" class="user-info-text"></p>
+                <p id="user-login" class="user-info-text"></p>
+            </div>
+            <div class="user-name-img">
+                <a id="user-url" target="_blank"><img id="user-img" class="invisible"></a>
+            </div>
+            <div class="navigation-user">
+                <a id="userRepo-url" target="_blank" class="user-info-text"><p id="userRepo-urlP" class="invisible">Repositories</p></a>
+            </div>
+        </div>
+    </div>
+<div class="container-repo-father" >
+    <div class="container-repo">
+    </div>
+</div>
+    <script src="./js/models/UserModel.js"></script>
+    <script src="./js/models/ReposModel.js"></script>
+    <script src="./js/controllers/UserController.js"></script>
+    <script src="./js/views/UserView.js"></script>
+    <script src="./js/views/ReposView.js"></script>
+</body>
+</html>
